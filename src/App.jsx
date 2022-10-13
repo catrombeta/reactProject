@@ -4,9 +4,9 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
-    <div className="App container">
+    <div className="App container-fluid bg-primary">
       <div>
         <a href="https://reactjs.org" target="_blank">
           <img src={gato} className="gato" alt="React logo" />
