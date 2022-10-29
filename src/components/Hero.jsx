@@ -11,7 +11,7 @@ function Hero() {
                 </h1>
             </div>
             <div className="row justify-content-center text-center">
-                <div className="col-md-5 hero-box">
+                <div className="col-md-5 hero-box gx-0">
                     <div className="row justify-content-around">
                         <h3 className="mb-3">
                             Ordenar produtos por:
