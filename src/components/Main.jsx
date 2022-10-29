@@ -19,7 +19,7 @@ function Main() {
                         <Card 
                             image={card.image}
                             title={card.title}
-                            description={card.description}
+                            value={card.value}
                         />
                     )
                 })}

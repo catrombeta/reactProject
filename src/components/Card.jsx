@@ -1,4 +1,4 @@
-function Card({ image, title, description }) {
+function Card({ image, title, value }) {
     return (
         <div className="col-md-4">
             <div className="card">
@@ -10,7 +10,7 @@ function Card({ image, title, description }) {
                         {title}
                     </h5>
                     <p class="card-text">
-                        {description}
+                        {value}
                     </p>
                     <a href="#" class="btn button-card">Adicionar ao carrinho</a>
                 </div>
