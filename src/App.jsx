@@ -1,25 +1,17 @@
-import { useState } from 'react'
-import gato from './assets/gato.jpg'
 import './App.css'
 
+import Navbar from './components/Navbar'
+import Main from './components/Main'
+import {useState, useEffect} from 'react'
+
+
+
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App container-fluid bg-primary">
+    <div className="App">
       <div>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={gato} className="gato" alt="React logo" />
-        </a>
-      </div>
-      <h1>FUCK OFF</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 2)}>
-          count is {count}
-        </button>
-        {/* <Nabar />
-        <Main /> */}
-
+        <Navbar />
+        <Main />
       </div>
     </div>
   )
