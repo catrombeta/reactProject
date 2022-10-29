@@ -6,7 +6,7 @@ import { useState, useEffect } from "react"
 function Main() {
 
     return (
-        <section className="py-5 container">
+        <section className="py-5">
             <div className="row">
                 <h4 className="title-main">
                     Flores ao domicílio

@@ -62,6 +62,11 @@ nav h3 {
   font-weight: 600;
 }
 
+.button-hero:hover {
+  background-color: #7e8d5f50;
+  color:rgb(38, 38, 38) !important;
+}
+
 /* ----------- main -----------  */
 
 .title-main {
@@ -117,7 +122,8 @@ nav h3 {
 }
 
 .button-card:hover {
-  opacity: 80%;
+  background-color: #7e8d5f50;
+  color:rgb(38, 38, 38) !important;
 }
 
 .card a {
@@ -126,4 +132,15 @@ nav h3 {
 
 .card a:hover {
   color:#fff;
+}
+
+/* ---------- CLIENTS -----------  */
+
+.clients {
+  background-color: #7e8d5f45;
+}
+
+.icon-clients {
+  font-size: 2rem;
+  color: rgb(230, 230, 39);
 }

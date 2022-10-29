@@ -6,7 +6,7 @@ function Card() {
             <div class="card-body text-center">
                 <h5 class="card-title">Título</h5>
                 <p class="card-text">Pequena descrição</p>
-                <a href="#" class="button-card">Adicionar ao carrinho</a>
+                <a href="#" class="btn button-card">Adicionar ao carrinho</a>
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Hero from "./components/Hero"
 import Main from './components/Main'
+import Clients from './components/Clients'
 
 import {useState, useEffect} from 'react'
 
@@ -14,7 +15,10 @@ function App() {
       <div>
         <Navbar />
         <Hero />
-        <Main />
+        <div className="container">
+          <Main />
+          <Clients />
+        </div>
       </div>
     </div>
   )
