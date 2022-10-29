@@ -1,4 +1,5 @@
 import Card from "./Card"
+import { cards } from "../../data/db.json"
 
 
 import { useState, useEffect } from "react"
@@ -13,37 +14,15 @@ function Main() {
                 </h4>
             </div>
             <div className="row justify-content-between mt-5">
-                <div className="col-md-3">
-                    <Card />
-                </div>
-                <div className="col-md-3">
-                    <Card />
-                </div>
-                <div className="col-md-3">
-                    <Card />
-                </div>
-            </div>
-            <div className="row justify-content-between mt-5">
-                <div className="col-md-3">
-                    <Card />
-                </div>
-                <div className="col-md-3">
-                    <Card />
-                </div>
-                <div className="col-md-3">
-                    <Card />
-                </div>
-            </div>
-            <div className="row justify-content-between mt-5">
-                <div className="col-md-3">
-                    <Card />
-                </div>
-                <div className="col-md-3">
-                    <Card />
-                </div>
-                <div className="col-md-3">
-                    <Card />
-                </div>
+                {cards.map((card) => {
+                    return (
+                        <Card 
+                            image={card.image}
+                            title={card.title}
+                            description={card.description}
+                        />
+                    )
+                })}
             </div>
         </section>
     )
