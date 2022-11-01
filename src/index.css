@@ -35,6 +35,10 @@ nav h3 {
   color:rgb(250, 250, 250);
 }
 
+.badge {
+  background-color: #7E8D5F !important;
+}
+
 .logo-navbar {
   width: 3rem;
   height: 3rem;
@@ -161,4 +165,42 @@ nav h3 {
 .icon-clients {
   font-size: 2rem;
   color: rgb(230, 230, 39);
+}
+
+/* ---------- FOOTER ---------  */
+
+footer {
+  min-height: 20rem;
+  background-color: rgb(126, 141, 95);
+  margin-top: 5rem;
+  padding: 3rem 0;
+  display: flex;
+  align-items: center;
+}
+
+footer h4 {
+  color:rgb(219, 247, 162);
+}
+
+footer a {
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  display: block;
+  padding: 0.5rem 0;
+}
+
+footer a:hover {
+  color:#DCAE96;
+  transition: 0.5s;
+}
+
+.socialMedia a {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 2rem;
+  padding: 0;
+}
+
+.socialMedia a:hover {
+  transform: translateY(-0.5rem); 
 }

@@ -13,7 +13,19 @@ function Navbar() {
                     </h3>
                 </div>
                 <div className="col-md-2">
-                    <BsFillCartFill className="icon-navbar" />
+
+                <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><BsFillCartFill className="icon-navbar position-relative" /><span class="badge ms-1">1</span></button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrinho</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </nav>
@@ -22,3 +34,4 @@ function Navbar() {
 }
 
 export default Navbar
+

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Hero from "./components/Hero"
 import Main from './components/Main'
 import Clients from './components/Clients'
+import Footer from "./components/Footer"
 
 import {useState, useEffect} from 'react'
 
@@ -19,6 +20,7 @@ function App() {
           <Main />
           <Clients />
         </div>
+        <Footer />
       </div>
     </div>
   )
