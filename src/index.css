@@ -35,6 +35,11 @@ nav h3 {
   color:rgb(250, 250, 250);
 }
 
+.logo-navbar {
+  width: 3rem;
+  height: 3rem;
+}
+
 .hero {
   background-image: url(./assets/hero.jpg);
   background-position: center;
