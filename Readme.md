@@ -14,3 +14,10 @@ Welcome to my new project, FloreSun. This project is an e-commerce that will all
 ## What is missing?
 
 - Hooks to features
+
+## Technologies used
+
+- HTML
+- CSS
+- Bootstrap
+- React
