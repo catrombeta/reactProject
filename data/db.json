@@ -2,47 +2,47 @@
 {
     "cards": [
         {
-            "image": "../public/assets/card-1.jpg",
+            "image": "/assets/card-1.jpg",
             "title": "Dominique",
             "value": "30,00 €"
         },
         {
-            "image": "../public/assets/card-2.jpeg",
+            "image": "/assets/card-2.jpeg",
             "title": "Eva",
             "value": "28,99 €"
         },
         {
-            "image": "../public/assets/card-3.jpeg",
+            "image": "/assets/card-3.jpeg",
             "title": "Simone",
             "value": "21,00 €"
         },
         {
-            "image": "../public/assets/card-4.jpg",
+            "image": "/assets/card-4.jpg",
             "title": "Marie",
             "value": "34,99 €"
         },
         {
-            "image": "../public/assets/card-5.jpeg",
+            "image": "/assets/card-5.jpeg",
             "title": "Frida",
             "value": "40,00 €"
         },
         {
-            "image": "../public/assets/card-6.jpeg",
+            "image": "/assets/card-6.jpeg",
             "title": "Amália",
             "value": "27,50 €"
         },
         {
-            "image": "../public/assets/card-7.jpeg",
+            "image": "/assets/card-7.jpeg",
             "title": "Rachel",
             "value": "35,80 €"
         },
         {
-            "image": "../public/assets/card-8.jpg",
+            "image": "/assets/card-8.jpg",
             "title": "Jane",
             "value": "38,50 €"
         },
         {
-            "image": "../public/assets/card-9.jpeg",
+            "image": "/assets/card-9.jpeg",
             "title": "Dandara",
             "value": "27,50 €"
         }
