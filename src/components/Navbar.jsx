@@ -5,7 +5,7 @@ function Navbar() {
         <nav>
             <div className="row justify-content-around">
                 <div className="col-md-2">
-                    <img src="../../src/assets/logo.png" className="logo-navbar" />
+                    <img src="../../public/assets/logo.png" className="logo-navbar" />
                 </div>
                 <div className="col-md-2">
                     <h3>
